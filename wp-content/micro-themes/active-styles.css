@@ -1,0 +1,64 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> Wpforms form 22 wpforms field large **/
+#wpforms-form-22 .wpforms-field-large {
+	border-radius: 50px !important;
+}
+
+/** Geral >> Wpforms form 22 wpforms field medium **/
+#wpforms-form-22 .wpforms-field-medium {
+	border-radius: 50px !important;
+}
+
+/** Geral >> Wpforms submit 22 **/
+#wpforms-submit-22 {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(1, 100, 148) !important;
+	width: 250px !important;
+	margin-left: 250px !important;
+	border-style: none !important;
+	border-radius: 50px !important;
+}
+
+
+/*( < 1200 )*/
+@media (max-width: 1199.98px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> Wpforms submit 22 **/
+	#wpforms-submit-22 {
+	border-style: none !important;
+}
+
+
+}
+
+
+/*( < 768 )*/
+@media (max-width: 767.98px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> Wpforms submit 22 **/
+	#wpforms-submit-22 {
+	padding-right: 15px !important;
+	margin-left: 0 !important;
+}
+
+	/** Geral >> Wpforms form 22 wpforms submit container **/
+	#wpforms-form-22 .wpforms-submit-container {
+	padding-right: 0 !important;
+}
+
+	/** Geral >> Wpforms submit 22 _2 **/
+	#wpforms-submit-22 {
+	margin-left: 50px !important;
+}
+
+
+}
+
